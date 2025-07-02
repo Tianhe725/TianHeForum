@@ -1,35 +1,45 @@
-
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #000;
-  color: gold;
-  text-align: center;
-  padding-top: 100px;
-}
-.logo {
-  font-size: 48px;
-  font-weight: bold;
-  margin-bottom: 50px;
-}
-.buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-}
-.btn {
-  display: inline-block;
-  padding: 12px 24px;
-  color: gold;
+  font-family: 'Microsoft JhengHei', sans-serif;
   background-color: #111;
-  border: 2px solid gold;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 8px;
-  transition: background-color 0.3s;
+  color: #f1f1f1;
+  background-image: url('https://www.transparenttextures.com/patterns/black-linen.png');
+  background-repeat: repeat;
+  background-size: auto;
 }
-.btn:hover {
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  color: gold;
+}
+
+p {
+  max-width: 800px;
+  margin: 0 auto 20px;
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.btn {
+  display: block;
+  width: 200px;
+  margin: 40px auto;
+  padding: 10px;
+  text-align: center;
   background-color: gold;
-  color: black;
+  color: #111;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.logo {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: gold;
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
